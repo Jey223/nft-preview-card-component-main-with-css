@@ -31,6 +31,7 @@ a{
 }
 a:hover{
     color: var(--cyan);
+    transition: 2s ease-out;
 }
 
 body {
@@ -59,7 +60,7 @@ main{
 .img-holder{
     position: relative;
     height: 250px;
-    
+    cursor: pointer;
 }
 img{
     width: 100%;
@@ -90,6 +91,7 @@ img{
 .cover:hover{
     background-color: hsla(178, 100%, 50%, 0.5);
     opacity: 1;
+    transition: 2s ease-out;
 }
 
 .content-section{

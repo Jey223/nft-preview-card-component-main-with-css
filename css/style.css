@@ -92,18 +92,14 @@ img{
     opacity: 1;
 }
 
-
 .content-section{
-    padding: 15px 0px;
+    padding: 20px 0px;
     border-bottom: 1px solid var(--very-dark-blue-line);
 }
 h3 > a{
     color: var(--white);
     font-weight: 600;
 }
-/* h3 > a:hover{
-    color: var(--cyan);
-} */
 p{
     color: var(--soft-blue);
 }
@@ -148,23 +144,20 @@ p{
 }
 
 .authur-details{
-    margin-top: 15px;
-    height: 38px;
+    padding: 8px 0;
     display: flex;
 }
 
 .authur-details > img{
-    height: 100%;
-    width: 38px;
+    width: 35px;
     border-radius: 100%;
     border: solid 2px var(--white);
 }
 .authur-details p{
-    padding-left: 10px;
+    padding-left: 15px;
     margin: 0px;
     font-weight: 400;
-    padding-top: 10px;
-    padding-left: 20px;
+    padding-top: 8px;
     
 }
 p > a{
